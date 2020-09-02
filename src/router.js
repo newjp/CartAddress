@@ -10,9 +10,6 @@ export default new Router({
         {
             path: '/',
             name: 'cart',
-            meta: {
-                auth: true
-            },
             component: Cart
         },
         {
